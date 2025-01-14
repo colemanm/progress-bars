@@ -1,0 +1,25 @@
+{
+  "name": "progress-bars",
+  "version": "1.0.0",
+  "description": "Generate ASCII character progress bars for use in text",
+  "main": "progress-bars.js",
+  "type": "module",
+  "bin": {
+    "progress-bars": "node --no-warnings progress-bars.js"
+  },
+  "scripts": {
+    "start": "node --no-warnings progress-bars.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "ascii",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+} 
