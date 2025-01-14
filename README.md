@@ -4,11 +4,7 @@ A command line tool for generating ASCII character progress bars. For use on web
 
 ## Installation
 
-```bash
-npm install -g progress-bars
-```
-
-Or run directly with npx:
+Run directly with npx:
 
 ```bash
 npx progress-bars --percentage 50
@@ -37,6 +33,11 @@ Customizing the width and characters:
 progress-bars --width 20 --fill "█" --empty "░" --percentage 75
 ```
 
+Show percentage details:
+```bash
+progress-bars --percentage 50 --details
+```
+
 Example outputs:
 ```
 # 50% with default settings (width: 100)
@@ -47,9 +48,4 @@ Example outputs:
 
 # 50% with details flag
 █████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 50%
-```
-
-Show percentage details:
-```bash
-progress-bars --percentage 50 --details
 ```
