@@ -5,6 +5,8 @@ A command line tool for generating ASCII character progress bars. For use on web
 ## Installation
 
 ```bash
+git clone https://github.com/colemanm/progress-bars.git
+cd progress-bars
 npm install
 ```
 
@@ -24,7 +26,7 @@ npm link
 
 ## Details
 
-- Pass in properties including `length`, `width`, `fill`, `empty`, `percentage`
+- Pass in properties including `length`, `width`, `fill`, `empty`, `percentage`, and `details`
 - `width` is the width of the progress bar in characters (default: 100)
 - `fill` is the character to use for the filled part of the progress bar (default: `█`)
 - `empty` is the character to use for the empty part of the progress bar (default: `░`)
