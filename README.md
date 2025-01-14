@@ -4,10 +4,22 @@ A command line tool for generating ASCII character progress bars. For use on web
 
 ## Installation
 
-Run directly with npx:
+```bash
+npm install
+```
+
+Run this tool directly without installation using npx:
 
 ```bash
 npx progress-bars --percentage 50
+```
+
+For development:
+```bash
+git clone https://github.com/yourusername/progress-bars.git
+cd progress-bars
+npm install
+npm link
 ```
 
 ## Details
